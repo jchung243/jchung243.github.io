@@ -15,7 +15,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
   <!-- Nav Bar -->
-  <nav class="navbar navbar-expand-sm navbar-custom">
+  <nav class="navbar navbar-expand-sm navbar-light navbar-custom">
     <a class="navbar-brand text-light" href="#">LATITUDE</a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
@@ -33,7 +33,7 @@
               plots
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="temperature.html">temperature</a>
+              <a class="dropdown-item" href="#">temperature</a>
               <a class="dropdown-item" href="#">humidity</a>
               <a class="dropdown-item" href="#">cloudiness</a>
               <a class="dropdown-item" href="#">wind speed</a>
@@ -47,21 +47,17 @@
 <div class="container-fluid main-box">
   <div class="container">
   <div class="row align-items-top">
-    <div class="col-12"> 
-      <h1 class="main-title center-custom">LATITUDE</h1>
-      <p>
-      Welcome to latitude. Latitude is a simple project that sought to answer a simple question:
-      does the temperature get warmer closer to the equator? While the answer may seem like an
-      obvious yes, how does one go about demonstrating this effect using real world data and analysis?
-      This project used the <a href="https://openweathermap.org/api" target="_blank">OpenWeatherMap API</a>
-      and some simple Python to collect, analyze, display this data in a simple to consume format.
+    <div class="col-12 center-custom"> 
+      <h1 class="main-title center-custom-child">TEMPERATURE</h1>
+      <div>
+      <img class="img-float" src="img/temperature-full.png">
+      <p class="text-left">
+          This visualization depecits temperature in Fahrenheit versus latitude.
+          As you can see, the trend suggests that the temperature is higher
+        closer the datapoint is to the latitude 0 (the equator). This particular
+        dataset utilized 632 random points from around the globe was taken on March 16th, 2019.
       </p>
-      <p>
-      The Python script collected data from ~500 randomly selected points from all over the world and
-      used the <a href="https://openweathermap.org/api" target="_blank">OpenWeatherMap API</a> to collect live
-      weather data for the selected points. The script then processed the data for these points and visualized
-      them by Temperature, Humidity, Cloudiness, and Wind Speed.
-      </p>
+      </div>
     </div>
   </div>
   </div>
@@ -75,7 +71,7 @@
           <div class="card-body center-custom">
             <h5 class="card-title">Vs. Temperature</h5>
             <p class="card-text">View the results of plotting Latitude vs Temperature.</p>
-            <a href="temperature.html" class="btn btn-primary">Visualize!</a>
+            <a href="#" class="btn btn-primary">Visualize!</a>
           </div>
         </div>
       </div>

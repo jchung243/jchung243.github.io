@@ -29,7 +29,13 @@
 .main-title{
   color: #4aaaa5;
   padding: 10px;
-  -webkit-transform:scale(1,4);
-  padding-top: 50px;
-  padding-bottom: 50px;
+}
+
+.text-left {
+  text-align:left;
+  vertical-align: center;
+}
+
+.img-float {
+  float: left;
 }
