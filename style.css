@@ -7,10 +7,29 @@
 }
 
 .content-custom {
-  background-color: #ffffff;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 10px;
   padding-right: 10px;
   margin: 20px;
+}
+
+.center-custom{
+  text-align:center;
+}
+.center-custom-child{
+  display: inline-block;
+}
+
+.main-box{
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.main-title{
+  color: #4aaaa5;
+  padding: 10px;
+  -webkit-transform:scale(1,4);
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
