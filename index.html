@@ -37,7 +37,7 @@
               plots
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">max temperature</a>
+              <a class="dropdown-item" href="#">temperature</a>
               <a class="dropdown-item" href="#">humidity</a>
               <a class="dropdown-item" href="#">cloudiness</a>
               <a class="dropdown-item" href="#">wind speed</a>
@@ -51,9 +51,18 @@
 <div class="container-fluid">
   <div class="container-fluid">
     <div class="row align-items-center">
-      <div class="col-3 border content-custom"></div>
-      
-      <div class="col-8 border content-custom"></div>
+      <div class="col-3 border content-custom">
+        <h3>Visualizations</h3>
+        <div class="list-group">
+            <button type="button" class="list-group-item list-group-item-action active">Temperature</button>
+            <button type="button" class="list-group-item list-group-item-action">Humidity</button>
+            <button type="button" class="list-group-item list-group-item-action">Cloudiness</button>
+            <button type="button" class="list-group-item list-group-item-action">Wind Speed</button>
+        </div>
+      </div>
+      <div class="col-8 border content-custom">
+        <img src="img/temperature.png">
+      </div>
     </div>
   </div>
 </div>

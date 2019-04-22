@@ -1,24 +1,12 @@
-.jc-title {
+.navbar-custom {
   background-color: #4aaaa5;
 }
 
-.nav-color {
-  color: #b4e0de;
-}
-
-.spacer {
-  height: 0px;
-}
-
-.vertical-align {
-  vertical-align: middle;
-}
-
-.background {
+.background-custom {
   background-color: #ededed
 }
 
-.content-main {
+.content-custom {
   background-color: #ffffff;
   padding-top: 20px;
   padding-bottom: 20px;
