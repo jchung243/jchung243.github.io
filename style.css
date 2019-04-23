@@ -14,9 +14,22 @@
   margin: 20px;
 }
 
-.center-custom{
+.center-custom {
   text-align:center;
 }
+
+.center-custom-child{
+  display: inline-block;
+}
+
+.comparison-left {
+  text-align:left;
+}
+
+.comparison-right {
+  text-align:right;
+}
+
 .center-custom-child{
   display: inline-block;
 }
@@ -28,13 +41,16 @@
 
 .main-title{
   color: #4aaaa5;
-  padding: 10px;
+  padding: 20px;
 }
 
 .text-left {
   text-align:left;
+  padding: 10px;
 }
 
 .img-float {
   float: left;
+  padding-right: 20px;
+  padding-bottom: 30px;
 }

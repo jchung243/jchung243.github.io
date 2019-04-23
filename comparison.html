@@ -14,9 +14,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-  <!-- Nav Bar -->
-  <nav class="navbar navbar-expand-sm navbar-custom">
-    <a class="navbar-brand text-light" href="#">LATITUDE</a>
+<!-- Nav Bar -->
+<nav class="navbar navbar-expand-sm navbar-light navbar-custom">
+    <a class="navbar-brand text-light" href="index.html">LATITUDE</a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
@@ -42,32 +42,33 @@
         </ul>
       </div>
     </div>
-   </nav>
+</nav>
 
-<div class="container-fluid main-box">
-  <div class="container">
-  <div class="row align-items-top">
-    <div class="col-2"></div>
-    <div class="col-8"> 
-      <h1 class="main-title center-custom">LATITUDE</h1>
-      <p>
-      Welcome to latitude. Latitude is a simple project that sought to answer a simple question:
-      does the temperature get warmer closer to the equator? While the answer may seem like an
-      obvious yes, how does one go about demonstrating this effect using real world data and analysis?
-      This project used the <a href="https://openweathermap.org/api" target="_blank">OpenWeatherMap API</a>
-      and some simple Python to collect, analyze, display this data in a simple to consume format.
-      </p>
-      <p>
-      The Python script collected data from ~600 randomly selected points from all over the world and
-      used the <a href="https://openweathermap.org/api" target="_blank">OpenWeatherMap API</a> to collect live
-      weather data for the selected points. The script then processed the data for these points and visualized
-      them by Temperature, Humidity, Cloudiness, and Wind Speed.
-      </p>
+<!-- Main Content -->
+<div class="container-fluid main-box center-custom">
+    <h1 class="main-title center-custom-child">COMPARISON</h1>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-4 center-custom-child">
+            <img src="img/temperature-full.png">
+        </div>
+        <div class="col-md-4 center-custom-child">
+            <img src="img/humidity-full.png">
+        </div>
+        <div class="col-md-2"></div>
     </div>
-    <div class="col-2"></div>
-  </div>
-  </div>
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-4 center-custom-child">
+            <img src="img/cloudiness-full.png">
+        </div>
+        <div class="col-md-4 center-custom-child">
+            <img src="img/windspeed-full.png">
+        </div>
+        <div class="col-md-2"></div>
+    </div>
 </div>
+
 <!-- Cards -->
 <div class="container-fluid">
     <div class="row align-items-top center-custom">
@@ -107,7 +108,7 @@
           <div class="card-body center-custom">
             <h5 class="card-title">Vs. Wind Speed</h5>
             <p class="card-text">View the results of plotting Latitude vs Wind Speed.</p>
-            <a href="windspeed.html" class="btn btn-primary">Visualize!</a>
+            <a href="windspeed.html " class="btn btn-primary">Visualize!</a>
           </div>
         </div>
       </div>
